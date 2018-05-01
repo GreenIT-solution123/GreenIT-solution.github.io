@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700');
+* {
+	padding: 0;
+	border: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+a:hover, a:focus, button:hover, button:focus, button:active {
+	text-decoration: none;
+	outline: 0;
+}
+
+.bg {
+	padding-top: 190px;
+	padding-bottom: 130px;
+	background-image: url(../img/parallax.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+	background-attachment: fixed;
+}
+
+h1 {
+	font-size: 60px;
+	line-height: 1.45;
+	letter-spacing: .04em;
+	font-weight: 700;
+}
+
+.bg p {
+	font-size: 19px;
+	margin-top: 30px;
+}
+
+.bg button {
+	margin-top: 30px;
+	color: #fff;
+	background-color: #1cd8c9;
+	min-width: 230px;
+	padding: 14px 38px;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	border-radius: 35px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	transition: .25s all ease;
+	white-space: pre-wrap;
+}
+
+.bg button:hover {
+	color: #fff;
+	background-color: #10aea1;
+}
+
+.title_big h3 {
+	font-size: 34px;
+	line-height: 1.375;
+	letter-spacing: .04em;
+	font-weight: 700;
+	color: #29293a;
+}
+
+.divider {
+	margin-top: 20px;
+	background: #1cd8c9;
+	display: inline-block;
+	border: 0;
+	font-size: 0;
+	line-height: 0;
+	height: 3px;
+	max-width: 100px;
+	width: 100%;
+}
+
+#service, #team {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.service {
+	padding-top: 50px;
+}
+
+.icon {
+	color: #1cd8c9;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 120px;
+	height: 120px;
+	line-height: 120px;
+	font-size: 48px;
+	margin-left: auto;
+	margin-right: auto;
+	transition: 450ms ease-in-out;
+	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	border-radius: 50%;
+	border: 3px solid #1cd8c9;
+}
+
+.service_container {
+	padding-top: 15px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.service_container .title_small {
+	font-size: 19px;
+	line-height: 1.5;
+	letter-spacing: .04em;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-weight: 700;
+	color: #29293a;
+}
+
+.divider_small {
+	background: #d3d3d3;margin-top: 20px;
+	height: 2px;
+	max-width: 60px;
+}
+
+.service_container .details {
+	letter-spacing: .02em;
+	color: #838386;
+	opacity: 1;
+	margin-top: 18px;
+	font-weight: 300;
+}
+
+#team {
+	background-color: #F6F6F6;
+}
+
+.team_member {
+	text-align: left;
+}
+
+.member_image {
+	width: 270px;
+	height: 270px;
+	border-radius: 15px;
+	background-color: gray;
+}
+
+.member_name {
+	margin-top: 22px;
+	line-height: 1.41667;
+	font-weight: 400;
+	font-size: 19px;
+	color: #29293a;
+}
+
+.member_post {
+	font-size: 18px;
+	font-style: italic;
+	color: #838386;
+	text-transform: capitalize;
+}
+
+.member_button a {
+	margin-top: 20px;
+	padding: 9px 28px;
+	font-size: 12px;
+	line-height: 22px;
+	min-width: 150px;
+	letter-spacing: .12em;
+	color: #1f2323;
+	background-color: transparent;
+	border-color: #ededed !important;
+	position: relative;
+	display: inline-block;
+	max-width: 100%;
+	font-weight: 700;
+	border: 2px solid;
+	border-radius: 35px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	transition: .25s all ease;
+	white-space: pre-wrap;
+	text-decoration: none;
+}
+
+.member_button a:hover {
+	color: #fff;
+	background-color: #1cd8c9;
+	border-color: #1cd8c9 !important;
+}
+
+.mb {
+	margin-bottom: 50px;
+}
+
+.team {
+	margin-top: 70px;
+}
+
+#nav {
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+
+.advantages {
+	background-color: #1f2323;	
+}
+
+.right_side {
+	background-color: #1f2323;
+	color: #fff !important;
+	padding: 80px 50px;
+}
+
+.right_side h3 {
+	color: #fff;
+}
+
+.adv {
+	padding: 40px 35px 45px;
+	min-height: 365px;
+	border-radius: 8px;
+	border: 1px solid #c2c2c3;
+	transition: 450ms ease-in-out;
+	margin-top: 30px;
+}
+.adv:hover {
+	background: #1cd8c9;
+	border-color: #1cd8c9;
+}
+
+.adv_icon {
+	font-size: 48px;
+}
+
+.adv_title {
+	margin-top: 15px;
+	font-weight: 400;
+	font-size: 19px;
+}
+
+hr {
+	margin-top: 30px;
+	border-color: #fff;
+	opacity: .5;
+	border-top: 1px solid #eeeeee;
+}
+
+.adv_details {
+	opacity: .6;
+	margin-top: 22px;
+	color: #fff;
+}
+
+#contact {
+	padding: 90px 0 30px;
+	background-color: #EFEEEC;
+}
+
+.about_us {
+	opacity: .5;
+	padding-right: 5px;
+}
+
+.title_extra_small {
+	font-size: 19px;
+	line-height: 1.5;
+	letter-spacing: .04em;
+	font-weight: 700;
+}
+
+.contact input {
+	background-color: transparent;
+	background: #353535;
+	color: lightgray;
+	padding: 12px;
+	min-height: 50px;
+	line-height: 24px;
+	display: block;
+	width: 100%;
+	border: 0px solid #f6f6f6;
+	border-radius: 35px;
+	margin-top: 20px;
+}
+
+textarea {
+	background: #353535;
+	margin-top: 20px;
+	color: #838386;
+	padding: 12px;
+	min-height: 50px;
+	height: 150px;
+	max-height: 255px;
+	resize: none;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 18px 25px;
+	font-weight: 300;
+	line-height: 24px;
+	border: 0px solid #f6f6f6;
+	border-radius: 35px;
+}
+
+.submit {
+	margin-top: 20px;
+	min-height: 50px;
+	min-width: 190px;
+	padding: 11px 35px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #fff;
+	background-color: #1cd8c9;
+	position: relative;
+	display: inline-block;
+	max-width: 100%;
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	border-radius: 35px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	transition: .25s all ease;
+	outline: none;
+}
+
+.submit_button {
+	text-align: right;
+	width: 100%;
+}
+
+.submit:hover {
+	color: #fff;
+	background-color: #10aea1;
+	border-color: #10aea1;
+}
