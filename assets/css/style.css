@@ -92,7 +92,6 @@ h1 {
 	justify-content: center;
 	width: 120px;
 	height: 120px;
-	line-height: 120px;
 	font-size: 48px;
 	margin-left: auto;
 	margin-right: auto;
@@ -142,8 +141,8 @@ h1 {
 }
 
 .member_image {
-	width: 270px;
-	height: 270px;
+	width: 1.5in;
+	height: 1.5in;
 	border-radius: 15px;
 	background-color: gray;
 }
