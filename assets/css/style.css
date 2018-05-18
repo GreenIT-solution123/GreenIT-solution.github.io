@@ -145,6 +145,7 @@ h1 {
 	height: 1.5in;
 	border-radius: 15px;
 	background-color: gray;
+	overflow: hidden;
 }
 
 .member_name {
